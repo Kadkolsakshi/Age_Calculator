@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background: url(age5.jpg)no-repeat;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.container{
+    width:700px;
+    height:350px;
+    background:url(age2.png)no-repeat;
+    border:2px solid green;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+.container .input-field{
+    width:100%;
+    border:1px solid black;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background: url(age2.jpg);
+    
+}
+.input-field input{
+    width:65%;
+    padding: 10px;
+    border: 1px solid #EC8F5E;
+    background: transparent;
+    font-size: 19px;
+    font-weight: 800;
+}
+.input-field button{
+    width:30%;
+    border-radius: 20%;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, palevioletred 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    color: #fff;
+
+}
+.container .action{
+    width:100%;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: start;
+  
+}
+.container .action h1{
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    color: purple;
+    font-weight: 800;
+    transition: all ease-in 0.3s;
+}
+.action h1:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    color:white;
+    background: rgb(242, 140, 174);
+}
+.container .action h2{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.container .action h2:nth-child(odd){
+    color: white;
+    border:1px solid #D6D46D ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+}
+.container .action h2:nth-child(even){
+    color: white;
+    border:1px solid #D6D46D ;
+    border-radius: 5px;
+    font-weight: 800;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+}
+
+
